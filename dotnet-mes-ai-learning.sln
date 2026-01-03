@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day01_HelloWorld", "Day01_H
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day02_Variables_DataTypes", "fundamentals\Day02_Variables_DataTypes\Day02_Variables_DataTypes\Day02_Variables_DataTypes.csproj", "{1C288CA7-3C58-4EFD-9F24-41B1833043C3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day03_ConditionsLoops", "Fundamentals\Day03_ConditionsLoops\Day03_ConditionsLoops\Day03_ConditionsLoops.csproj", "{DBA82A75-E64B-466D-8889-7A9C328BE883}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{1C288CA7-3C58-4EFD-9F24-41B1833043C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C288CA7-3C58-4EFD-9F24-41B1833043C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C288CA7-3C58-4EFD-9F24-41B1833043C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBA82A75-E64B-466D-8889-7A9C328BE883}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBA82A75-E64B-466D-8889-7A9C328BE883}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBA82A75-E64B-466D-8889-7A9C328BE883}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBA82A75-E64B-466D-8889-7A9C328BE883}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
