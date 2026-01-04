@@ -9,6 +9,7 @@
 // 1.Array   - can be fixed no of elements
 
 using System.Reflection.PortableExecutable;
+using System.Runtime.Intrinsics.X86;
 
 string[] machines = {"CNC-01", "CNC-02", "CNC-03"};
 
@@ -91,6 +92,8 @@ foreach (var  machine in machineNames )
 
 }
 
+// Task 01:
+
 /*
 Problem
 
@@ -109,6 +112,7 @@ int[] hourlyProduction = { 120, 130, 125, 140, 135, 128, 132, 138 };
 if(hourlyProduction.Length ==0)
 {
     Console.WriteLine("No Production Data Available");
+    return;
 }
 
 int totalProduction = hourlyProduction.Sum();
@@ -120,6 +124,86 @@ double averageProduction = hourlyProduction.Average();
 
 Console.WriteLine($"Average Production : {averageProduction:F2}");  // here F2 means Formating to two decimal points
 
+
+
+//Task 2: Find Max & Min Temperature
+/*Problem
+
+Track temperature readings and find:
+
+Maximum temperature
+
+Minimum temperature
+
+Requirements
+
+Use double[]
+
+Use a loop (NO LINQ yet) */
+
+
+double[] temperatures = { 50.50, 60.33, 40.00, 25.80 };
+double minmumTemperature = temperatures[0];
+double maximumTemperature = temperatures[0];
+
+foreach (var temperature in temperatures)
+{
+    
+    if(temperature < minmumTemperature) 
+        minmumTemperature = temperature;
+
+    if(temperature > maximumTemperature)
+        maximumTemperature = temperature;
+}
+Console.WriteLine($"Minimum Temperature : {minmumTemperature}");
+Console.WriteLine($"Maximum Temperature : {maximumTemperature}");
+
+// Task 3
+// Machine Status List (String Logic)
+/* Problem
+
+Maintain machine statuses.
+
+Requirements
+
+Create List<string> with:
+
+"Running"
+
+"Idle"
+
+"Stopped"
+
+Check if "Running" exists
+
+Print message based on status
+*/
+
+// re visit
+
+List<string> machineStatus = new List<string>
+{
+    "Running",
+    "Idle",
+    "Stopped"
+};
+
+if (machineStatus.Contains("Running"))
+{
+    Console.WriteLine("Machine is currently running.");
+}
+else if (machineStatus.Contains("Idle"))
+{
+    Console.WriteLine("Machine is idle.");
+}
+else if (machineStatus.Contains("Stopped"))
+{
+    Console.WriteLine("Machine is stopped.");
+}
+else
+{
+    Console.WriteLine("Unknown machine status.");
+}
 
 
 
