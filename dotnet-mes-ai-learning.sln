@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day02_Variables_DataTypes",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day03_ConditionsLoops", "Fundamentals\Day03_ConditionsLoops\Day03_ConditionsLoops\Day03_ConditionsLoops.csproj", "{DBA82A75-E64B-466D-8889-7A9C328BE883}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day04_Arrays_Lists", "fundamentals\Day04_Arrays_Lists\Day04_Arrays_Lists\Day04_Arrays_Lists.csproj", "{E9787650-B6C8-4862-9C47-FF61CFD3D1BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day05_Dictionary", "Fundamentals\Day04_Dictionary\Day04_Dictionary\Day05_Dictionary.csproj", "{740A8941-B090-4E18-A677-33513EF14110}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,11 +31,19 @@ Global
 		{DBA82A75-E64B-466D-8889-7A9C328BE883}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DBA82A75-E64B-466D-8889-7A9C328BE883}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DBA82A75-E64B-466D-8889-7A9C328BE883}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9787650-B6C8-4862-9C47-FF61CFD3D1BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9787650-B6C8-4862-9C47-FF61CFD3D1BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9787650-B6C8-4862-9C47-FF61CFD3D1BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9787650-B6C8-4862-9C47-FF61CFD3D1BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{740A8941-B090-4E18-A677-33513EF14110}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{740A8941-B090-4E18-A677-33513EF14110}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{740A8941-B090-4E18-A677-33513EF14110}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{740A8941-B090-4E18-A677-33513EF14110}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {3767D52C-3212-411A-A6B5-B656B04BB1D2}
+		SolutionGuid = {441F79F6-F6D6-4DF7-887F-30DD46143083}
 	EndGlobalSection
 EndGlobal
