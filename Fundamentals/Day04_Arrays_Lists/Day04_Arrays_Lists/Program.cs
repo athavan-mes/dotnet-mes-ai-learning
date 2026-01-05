@@ -158,8 +158,7 @@ foreach (var temperature in temperatures)
 Console.WriteLine($"Minimum Temperature : {minmumTemperature}");
 Console.WriteLine($"Maximum Temperature : {maximumTemperature}");
 
-// Task 3
-// Machine Status List (String Logic)
+// Task 3 Machine Status List (String Logic)
 /* Problem
 
 Maintain machine statuses.
