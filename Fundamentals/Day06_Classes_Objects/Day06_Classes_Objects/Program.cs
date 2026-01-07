@@ -61,3 +61,7 @@ Console.WriteLine($"Running Machines :{runningMachineCount}");
 Machine3.AddProductionCount(20);
 Console.WriteLine($"{Machine3.Id}-{Machine3.Name} Production Count : {Machine3.Produced} ");
 
+
+
+// created machine class and derived machine1,2 ,3 4 objects from it
+
