@@ -24,6 +24,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day07_Inheritance_Polymorph
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day08_Interfaces_Abstraction", "Fundamentals\Day08_Interfaces_Abstraction\Day08_Interfaces_Abstraction\Day08_Interfaces_Abstraction.csproj", "{4446F029-DE15-4D12-B890-23AECE243A20}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day09_Methods_Parameters", "Fundamentals\Day09_Methods_Parameters\Day09_Methods_Parameters\Day09_Methods_Parameters.csproj", "{50A45833-7CA7-4F99-829C-8F1193FB2B79}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -62,6 +64,10 @@ Global
 		{4446F029-DE15-4D12-B890-23AECE243A20}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4446F029-DE15-4D12-B890-23AECE243A20}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4446F029-DE15-4D12-B890-23AECE243A20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50A45833-7CA7-4F99-829C-8F1193FB2B79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50A45833-7CA7-4F99-829C-8F1193FB2B79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50A45833-7CA7-4F99-829C-8F1193FB2B79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50A45833-7CA7-4F99-829C-8F1193FB2B79}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
