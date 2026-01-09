@@ -10,6 +10,10 @@
 // 6.Type Conversion
 // 7.Create Git Branch , Commit code , Merge Branch 
 
+// Syntax :
+// type identifier  = value;   // declared and assigned/initilized
+// type identifier ; identifier = value;  // declared and then initilized later
+
 
 int machineId = 100;
 string machineName = "Planning-01";
@@ -48,5 +52,65 @@ Console.WriteLine($"Maintenance Reqquired {isMaintenanceRequired}");
 Console.WriteLine($"Curren Production Count {productionCount}");
 
 
-        
+
+
+/* =========================================================
+   C# Data Types – Points to Remember
+   ========================================================= */
+
+// ---------- INTEGER TYPES ----------
+// Signed integers
+// int    = System.Int32   = 32-bit signed
+// long   = System.Int64   = 64-bit signed
+// short  = System.Int16   = 16-bit signed
+// sbyte  = System.SByte  = 8-bit signed
+
+// Unsigned integers
+// uint   = System.UInt32 = 32-bit unsigned
+// ulong  = System.UInt64 = 64-bit unsigned
+// ushort = System.UInt16 = 16-bit unsigned
+// byte   = System.Byte  = 8-bit unsigned
+
+
+// ---------- FLOATING POINT TYPES ----------
+// float  = System.Single = 32-bit (approximate)
+// double = System.Double = 64-bit (approximate)
+// decimal = System.Decimal = 128-bit (high precision, financial)
+
+
+// ---------- CHARACTER & BOOLEAN ----------
+// char = System.Char = 16-bit Unicode character
+// bool = System.Boolean = true / false (1 byte)
+
+
+// ---------- TEXT ----------
+// string = System.String = sequence of characters (immutable)
+
+
+// ---------- BASE TYPE ----------
+// object = System.Object = base type of all C# types
+
+
+// ---------- DYNAMIC ----------
+// dynamic = runtime-typed variable (type resolved at runtime)
+
+
+// ---------- VOID ----------
+// void = represents no return value (used for methods)
+
+
+// ---------- VALUE TYPES ----------
+// struct = custom value type
+// enum   = named numeric constants
+
+
+// ---------- COLLECTION TYPES ----------
+// Array  = fixed-size collection of same type
+// Tuple  = group of multiple values of different types
+
+
+
+
+
+
 
