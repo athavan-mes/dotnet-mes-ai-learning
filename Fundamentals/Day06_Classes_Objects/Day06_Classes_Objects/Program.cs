@@ -235,3 +235,47 @@ GetInvocationList()	- Returns all methods in multicast delegate
 Target	- Object on which the method is called
 Method	- Information about the method
 */
+
+// Learning about adding Summay 
+
+/// <summary>
+/// Briefly describes what this class or member does.
+/// (What it does + Why it exists)
+/// </summary>
+///
+/// <remarks>
+/// Provide detailed behavior:
+/// - Special rules
+/// - Side effects
+/// - Performance notes
+/// - Thread safety
+/// - Business logic meaning
+/// </remarks>
+///
+/// <example>
+/// <code>
+/// // Show how to use it
+/// var machine = new RobotMachine();
+/// machine.Start();
+/// </code>
+/// </example>
+///
+/// <typeparam name="T">
+/// Description of generic type parameter (if any).
+/// </typeparam>
+///
+/// <param name="paramName">
+/// Description of what this parameter represents.
+/// </param>
+///
+/// <returns>
+/// Describe what the method returns and what it means.
+/// </returns>
+///
+/// <exception cref="ExceptionType">
+/// When and why this exception is thrown.
+/// </exception>
+///
+/// <seealso cref="RelatedClassOrMethod"/>
+/// <seealso href="https://docs.microsoft.com"/>
+

@@ -3,6 +3,9 @@
 
 namespace Day07_Inheritance_Polymorphism.DerrivedModels
 {
+    /// <summary>
+    /// Represents a machine that performs robotic material cutting operations.
+    /// </summary>
     public class RobotMachine:Machine
     {
         public RobotMachine(string id , string name) : base(id , name) { }
