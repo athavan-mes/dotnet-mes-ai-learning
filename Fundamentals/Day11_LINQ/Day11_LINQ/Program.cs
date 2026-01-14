@@ -107,6 +107,19 @@ Robot → 200
 Conveyor → 300
 Vision → 180*/
 
+var productionByType = machinesList
+    .GroupBy(m => m.Type)
+    .Select(g => new
+    {
+        Type = g.Key,
+        TotalProduction = g.Sum(m => m.Parts)
+    });
+foreach (var item in productionByType)
+{
+    Console.WriteLine($"{item.Type} total production is {item.TotalProduction} ");
+
+}
+
 
 
 /*🔹 Task 2 — Machine Count by Status
@@ -122,6 +135,16 @@ Stopped
 
 This becomes MES KPI.*/
 
+var machineCountByStatus = machinesList.GroupBy(m => m.Status)
+    .Select(g => new
+    {
+        Status = g.Key,
+        Count = g.Count()
+    });
+foreach (var item in machineCountByStatus)
+{
+    Console.WriteLine($"{item.Status} : {item.Count}");
+}
 
 
 /*🔹 Task 3 — Average Production per Type
@@ -132,6 +155,17 @@ Calculate Average Parts Produced
 
 Used to see efficiency.*/
 
+var averageProductionPerType = machinesList
+    .GroupBy(m => m.Type)
+    .Select(g => new
+    {
+        Type = g.Key,
+        AverageProduction = g.Average(m => m.Parts)
+    });
+foreach (var item in averageProductionPerType)
+{
+    Console.WriteLine($"{item.Type} : {item.AverageProduction}");
+}
 
 
 
@@ -142,6 +176,10 @@ Find machine with lowest production but Status = Running
 
 This is the bottleneck machine.*/
 
+var bottelNeckMachine = machinesList.Where(m => m.Status == "Running")
+    .OrderBy(m => m.Parts)
+    .First();
+Console.WriteLine($"Bottleneck Machine is {bottelNeckMachine.Name} with production {bottelNeckMachine.Parts}");
 
 /*🔹 Task 5 — Find Idle Capacity
 
@@ -150,12 +188,36 @@ Calculate how many machines are Idle per Type
 
 Helps capacity planning. */
 
+var idleCapacityPerType = machinesList
+    .Where(m => m.Status == "Idle")
+    .GroupBy(m => m.Type)
+    .Select(g => new
+    {
+        Type = g.Key,
+        IdleCount = g.Count()
+    });
+foreach (var item in idleCapacityPerType)
+{
+    Console.WriteLine($"Ideal Machine in {item.Type} Type is {item.IdleCount}");
+        }
 
 /*🔹 Task 6 — Top Performer per Type
 
 Requirement
 For each machine type:
 Find the machine with the highest production. */
+
+var topPerformancePerType = machinesList.GroupBy(m => m.Type)
+    .Select(g => new
+    {
+        Type = g.Key,
+        TopMachine = g.OrderByDescending(m => m.Parts).First()
+    });
+
+foreach(var item in topPerformancePerType)
+{
+    Console.WriteLine($"Top Performer in {item.Type} is {item.TopMachine.Name} with production {item.TopMachine.Parts}");
+}
 
 
 /* 🔹 Task 7 — Factory Health Report
@@ -173,3 +235,20 @@ Stopped machines
 
 Total production
 */
+
+
+int totalMachines = machinesList.Count;
+Console.WriteLine($"Total Machines : {totalMachines}");
+
+int runningMachinesCount = machinesList.Count(m => m.Status == "Running");
+Console.WriteLine($"Running Machines : {runningMachinesCount}");
+
+int idleMachinesCount = machinesList.Count(m => m.Status == "Idle");
+Console.WriteLine($"Idle Machines : {idleMachinesCount}");
+
+int stoppedMachinesCount = machinesList.Count(m => m.Status == "Stopped");
+Console.WriteLine($"Stopped Machines : {stoppedMachinesCount}");
+
+int totalProductionAllMachines = machinesList.Sum(m => m.Parts);
+Console.WriteLine($"Total Production : {totalProductionAllMachines}");
+
