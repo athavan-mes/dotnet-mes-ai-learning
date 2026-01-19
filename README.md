@@ -1,129 +1,196 @@
-﻿🚀 .NET + MES + AI Learning Journey
+﻿# dotnet-mes-ai-learning
 
-This repository documents my structured 12-month learning journey focused on C#, .NET, MES (Manufacturing Execution Systems), and AI/ML, with hands-on, day-by-day implementations.
+A **12‑month, industry‑aligned learning repository** focused on building **enterprise‑grade .NET, MES, and AI/ML skills** for modern manufacturing systems.
 
-The goal is to build industry-ready backend skills aligned with manufacturing, automation, and smart factory systems.
+This repository is designed as a **hands‑on, day‑by‑day engineering journey**, combining **software development best practices** with **real MES / shop‑floor automation scenarios**.
 
-🧠 Tech Stack
+---
 
-Language: C#
+## 🚀 Objective
 
-Frameworks: .NET, ASP.NET Core
+To grow from **MES Automation Developer** into a **MES Architect / Technical Lead** by mastering:
 
-Database: SQL Server, EF Core
+* C# & .NET (console → web → services)
+* Manufacturing Execution Systems (MES)
+* PLC–MES–IT integration
+* Async, scalability, and system design
+* AI/ML foundations applied to manufacturing data
 
-Concepts: OOP, SOLID, Clean Architecture
+All examples are **MES‑focused**, not generic tutorials.
 
-Domain: MES, Machine State Management, Production Logic
+---
 
-AI/ML (Upcoming): Python, Pandas, Scikit-Learn
+## 🧭 Learning Roadmap
 
-Tools: Git, GitHub, Visual Studio
+### Phase 1 – C# & .NET Fundamentals (Months 1–3)
 
-📅 Learning Structure
+Hands‑on daily exercises covering:
 
-Weekdays: 1–1.5 hours
+* C# language fundamentals
+* OOP, SOLID principles
+* Collections, LINQ, async/await
+* Exception handling
+* Clean code practices
 
-Weekends: 2–3 hours
+📂 Folder: `Fundamentals/`
 
-Daily commits with realistic MES scenarios
+---
 
-Progress tracked using day-wise projects
+### Phase 2 – ASP.NET Core & APIs (Months 4–5)
 
-📂 Repository Structure
+* ASP.NET Core Web APIs
+* RESTful design
+* Dependency Injection
+* Logging & error handling
+* SQL & EF Core
+
+📂 Folder: `ASPNet_Core/` (upcoming)
+
+---
+
+### Phase 3 – MES Domain Projects (Months 6–7)
+
+* Simulated shop‑floor machines
+* Production, downtime, alarms
+* PLC/MES interaction patterns
+* Realistic MES workflows
+
+📂 Folder: `MES_Domain/` (planned)
+
+---
+
+### Phase 4 – AI / ML for Manufacturing (Months 8–11)
+
+* Python basics for data analysis
+* Machine learning concepts
+* Predictive maintenance scenarios
+* ML model → API → .NET integration
+
+📂 Folder: `AI_ML/` (planned)
+
+---
+
+### Phase 5 – Job Prep & Portfolio (Month 12)
+
+* Architecture documentation
+* Performance & scalability review
+* Interview‑ready projects
+* Resume & portfolio alignment
+
+---
+
+## 📁 Current Repository Structure
+
+```
 dotnet-mes-ai-learning/
 │
-├── README.md
-├── .gitignore
-├── dotnet-mes-ai-learning.sln
-│
-├── fundamentals/
-│   ├── Day01_HellowWorld/
-│   ├── Day02_Varialbles_DataTypes/
-│   ├── Day03_Conditions__Loops/
+├── Fundamentals/
+│   ├── Day01_HelloWorld/
+│   ├── Day02_Variables_DataTypes/
+│   ├── Day03_Conditions_Loops/
 │   ├── Day04_Collections/
 │   ├── Day05_Dictionary/
-│   ├── Day06_OOP/
-│   └── Day07_Inheritance/
+│   ├── Day06_Classes_Objects/
+│   ├── Day07_Inheritance_Polymorphism/
+│   ├── Day08_Interfaces_Abstraction/
+│   ├── Day09_Methods_Parameters/
+│   ├── Day10_ExceptionHandling/
+│   ├── Day11_LINQ_Basics/
+│   ├── Day12_LINQ_Advanced/
+│   ├── Day13_Async_Await/
+│   └── Day14_Mini_Project_TaskTracker/
 │
-├── mes-simulations/
-│   ├── MachineStatusSimulation/
-│   └── ProductionTracking/
-│
-└── docs/
-    ├── learning-plan.md
-    └── daily-notes.md
+├── .gitignore
+├── dotnet-mes-ai-learning.sln
+└── README.md
+```
 
-✅ Progress Tracker
-Phase 1 – C# & OOP Foundations
+---
 
- Day 1 – C# Basics & Project Setup
+## 🛠 Technologies Used
 
- Day 2 – Variables & Control Flow
+**Languages & Frameworks**
 
- Day 3 – Loops & Conditions
+* C#
+* .NET / .NET Core
+* ASP.NET Core (upcoming)
 
- Day 4 – Arrays & Collections
+**MES & Automation Concepts**
 
- Day 5 – Dictionary & MES State Logic
+* Machine states (Running / Idle / Stopped)
+* Production tracking
+* Shop‑floor data modeling
+* PLC–MES–IT integration patterns
 
- Day 6 – OOP Machine Model
+**Tools & Practices**
 
- Day 7 – Inheritance & Polymorphism
+* Git & GitHub (branch‑based workflow)
+* Azure DevOps concepts (PBIs, reviews)
+* Clean code & SOLID principles
 
-Phase 2 – ASP.NET Core & APIs (Upcoming)
+---
 
-REST APIs
+## 🌱 Git & Branching Strategy
 
-Authentication & Authorization
+This repo follows a **learning‑friendly but professional Git workflow**:
 
-EF Core & SQL
+* `main` → stable, reviewed code
+* `day-XX-topic-name` → daily learning branches
+* Meaningful commits per topic
+* No force‑push or messy history
 
-Phase 3 – AI/ML for MES (Upcoming)
+Example:
 
-Python for data processing
+```
+day-07-inheritance-polymorphism
+day-11-linq-basics
+day-13-async-await
+```
 
-ML models for downtime prediction
+---
 
-.NET ↔ ML integration
+## ▶️ How to Run
 
-🏭 MES-Focused Scenarios Covered
+1. Clone the repository
 
-Machine lifecycle management
+```bash
+git clone https://github.com/athavan-mes/dotnet-mes-ai-learning.git
+```
 
-Running / Idle / Stopped state transitions
+2. Open `dotnet-mes-ai-learning.sln` in Visual Studio
 
-Maintenance filtering logic
+3. Set any Day project as **Startup Project**
 
-Production counting & KPIs
+4. Run using `Ctrl + F5`
 
-Safe collection handling
+---
 
-OOP-based machine modeling
+## 🎯 Why This Repo Is Different
 
-🔁 Git Workflow
+✔ MES‑focused (not generic tutorials)
+✔ Real manufacturing terminology
+✔ Enterprise‑style structure
+✔ Clean progression from fundamentals to architecture
+✔ Designed for **15–25 LPA MES / .NET roles**
 
-Daily feature branches (day-06, day-07, etc.)
+---
 
-Meaningful commits
+## 📌 Future Enhancements
 
-Pull requests for structured merges
+* ASP.NET Core MES APIs
+* Machine simulation services
+* ML‑based downtime prediction
+* Unit & integration tests
+* Docker & CI/CD
 
-Continuous progress tracking
+---
 
-🎯 Objective
+## 👤 About the Author
 
-To become industry-ready for roles involving:
+MES & Automation Engineer with **8+ years of experience** in critical manufacturing environments.
+Specializing in **Critical Manufacturing MES**, PLC integration, and manufacturing IT systems.
+Currently building advanced skills in **.NET backend, system architecture, and AI‑enabled manufacturing**.
 
-.NET Backend Development
+---
 
-MES / Manufacturing Software
-
-Industrial IoT & Automation
-
-AI-driven manufacturing analytics
-
-📌 Note
-
-This repository reflects learning + implementation, not copy-paste tutorials.
-Each module is written with real-world manufacturing use cases in mind.
+⭐ If you are a recruiter or hiring manager, this repository represents **real learning + real engineering discipline**, not tutorial copying.

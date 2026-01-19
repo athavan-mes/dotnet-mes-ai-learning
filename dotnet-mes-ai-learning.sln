@@ -32,6 +32,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day11_LINQ", "Fundamentals\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day13_AsyncAwait", "Fundamentals\Day13_AsyncAwait\Day13_AsyncAwait\Day13_AsyncAwait.csproj", "{1BA70B64-69B6-428A-A9EB-E5C25BCD74E1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day14_MiniProject_MESTaskTracker", "Fundamentals\Day14_MiniProject_MESTaskTracker\Day14_MiniProject_MESTaskTracker\Day14_MiniProject_MESTaskTracker.csproj", "{A5A91983-683A-4867-923B-6655C949454E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -86,6 +88,10 @@ Global
 		{1BA70B64-69B6-428A-A9EB-E5C25BCD74E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1BA70B64-69B6-428A-A9EB-E5C25BCD74E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1BA70B64-69B6-428A-A9EB-E5C25BCD74E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5A91983-683A-4867-923B-6655C949454E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5A91983-683A-4867-923B-6655C949454E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5A91983-683A-4867-923B-6655C949454E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5A91983-683A-4867-923B-6655C949454E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
