@@ -1,0 +1,17 @@
+
+name: Daily Commit Check
+
+on:
+  schedule:
+    - cron: '0 15 * * *'  # 20:30 IST
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check Commit Activity
+        uses: actions/checkout@v4
+      - name: Verify Commit
+        run: |
+          git log --since="24 hours ago" --oneline || echo "⚠️ No commits today"

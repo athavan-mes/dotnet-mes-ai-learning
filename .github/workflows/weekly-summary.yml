@@ -1,0 +1,15 @@
+
+name: Weekly Progress Summary
+
+on:
+  schedule:
+    - cron: '0 4 * * 0'   # Sunday 09:30 IST
+  workflow_dispatch:
+
+jobs:
+  summary:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Weekly Summary
+        run: |
+          echo "📊 Weekly review: Update completed issues and reflect on learnings."
