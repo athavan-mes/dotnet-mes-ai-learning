@@ -36,6 +36,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day14_MiniProject_MESTaskTr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day16_Value_vs_Reference_Types", "Fundamentals\Day16_Value_vs_Reference_Types\Day16_Value_vs_Reference_Types\Day16_Value_vs_Reference_Types.csproj", "{AD9451A2-D5C8-4A9B-BCEE-11E42D7320C4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day17_Structs_Rocords", "Fundamentals\Day17_Structs_Rocords\Day17_Structs_Rocords\Day17_Structs_Rocords.csproj", "{E3629790-1274-4C48-BDA8-47C35F2CED49}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -98,6 +100,10 @@ Global
 		{AD9451A2-D5C8-4A9B-BCEE-11E42D7320C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD9451A2-D5C8-4A9B-BCEE-11E42D7320C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD9451A2-D5C8-4A9B-BCEE-11E42D7320C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3629790-1274-4C48-BDA8-47C35F2CED49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3629790-1274-4C48-BDA8-47C35F2CED49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3629790-1274-4C48-BDA8-47C35F2CED49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3629790-1274-4C48-BDA8-47C35F2CED49}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
