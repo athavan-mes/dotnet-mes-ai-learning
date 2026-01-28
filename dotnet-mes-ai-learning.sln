@@ -40,6 +40,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day17_Structs_Rocords", "Fu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day18_Delegates_Events", "Fundamentals\Day18_Delegates_Events\Day18_Delegates_Events\Day18_Delegates_Events.csproj", "{67E5152E-D1C2-424D-AE21-54540A502F4A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day20_SOLID_Principle", "Fundamentals\Day20_SOLID_Principle\Day20_SOLID_Principle\Day20_SOLID_Principle.csproj", "{480FC736-3CDF-4186-820A-BBD13F9DCA10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniMES.Domain", "src\MiniMES.Domain\MiniMES.Domain\MiniMES.Domain.csproj", "{933707B7-D948-4B0A-B61B-F9023C0E1B08}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -110,6 +114,14 @@ Global
 		{67E5152E-D1C2-424D-AE21-54540A502F4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{67E5152E-D1C2-424D-AE21-54540A502F4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{67E5152E-D1C2-424D-AE21-54540A502F4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{480FC736-3CDF-4186-820A-BBD13F9DCA10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{480FC736-3CDF-4186-820A-BBD13F9DCA10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{480FC736-3CDF-4186-820A-BBD13F9DCA10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{480FC736-3CDF-4186-820A-BBD13F9DCA10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{933707B7-D948-4B0A-B61B-F9023C0E1B08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{933707B7-D948-4B0A-B61B-F9023C0E1B08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{933707B7-D948-4B0A-B61B-F9023C0E1B08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{933707B7-D948-4B0A-B61B-F9023C0E1B08}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
