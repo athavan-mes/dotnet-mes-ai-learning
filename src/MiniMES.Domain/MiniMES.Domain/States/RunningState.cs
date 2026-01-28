@@ -1,12 +1,19 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using MiniMES.Domain.Machines;
 
-namespace MiniMES.Domain.States
+namespace MiniMES.Domain.States;
+
+
+public class RunningState : IMachineState
 {
-    internal class RunningState
+    public void Start(MachineContext context)
     {
+        context.RaiseStatusChanged("Already Running");
+    }
+
+
+    public void Stop(MachineContext context)
+    {
+        context.SetState(new IdleState());
+        context.RaiseStatusChanged("Stopped");
     }
 }

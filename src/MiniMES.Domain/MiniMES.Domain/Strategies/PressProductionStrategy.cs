@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace MiniMES.Domain.Strategies
 {
-    internal class PressProductionStrategy
+    /// <summary>
+    /// Represents a production strategy that calculates output for press operations.
+    /// </summary>
+    public class PressProductionStrategy : IProductionStrategy
     {
+        public int Calculate(int input)
+        {
+            return (int)(input * 10);
+        }
     }
 }

@@ -6,7 +6,16 @@ using System.Threading.Tasks;
 
 namespace MiniMES.Domain.Strategies
 {
-    internal class CncProductionStrategy
+    /// <summary>
+    /// Represents a CNC-based production strategy implementing the IProductionStrategy interface.
+    /// </summary>
+    public class CncProductionStrategy : IProductionStrategy
     {
+        public int Calculate(int input)
+        {
+            
+            return (int)(input * 2);
+        }
+
     }
 }

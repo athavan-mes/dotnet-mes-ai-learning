@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using MiniMES.Domain.Machines;
 
-namespace MiniMES.Domain.States
+namespace MiniMES.Domain.States;
+
+public interface IMachineState
 {
-    internal class IMachineState
-    {
-    }
+     void Start(MachineContext context);
+    void Stop(MachineContext context);
 }

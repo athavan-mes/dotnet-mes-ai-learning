@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace MiniMES.Domain.Events
 {
-    internal class MachineEvents
+    public class MachineEvents
     {
+        public event Action<string>? StatusChanged;
+        public void Notify(string status)
+        {
+            StatusChanged?.Invoke(status);
+        }
     }
 }

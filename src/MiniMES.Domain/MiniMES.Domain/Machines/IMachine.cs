@@ -1,12 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
 
 namespace MiniMES.Domain.Machines
 {
-    internal class IMachine
+    public interface IMachine
     {
+        string MachineId { get; }
+        MachineType Type { get; }
+
+        public void Start();
+        public void Stop();
+         public int Produce(int input);
+
     }
 }
+
