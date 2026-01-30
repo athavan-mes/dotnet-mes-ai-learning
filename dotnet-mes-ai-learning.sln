@@ -46,6 +46,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniMES.Domain", "src\MiniM
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniMES.Application", "src\MiniMES.Application\MiniMES.Application\MiniMES.Application.csproj", "{0290454C-C840-4B4F-9D1E-806C27A6BC63}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniMES.Infrastructure", "src\MiniMES.Infrastructure\MiniMES.Infrastructure\MiniMES.Infrastructure.csproj", "{ADF5D889-06E2-4BD5-A14A-D16120AD0A6D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -128,6 +130,10 @@ Global
 		{0290454C-C840-4B4F-9D1E-806C27A6BC63}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0290454C-C840-4B4F-9D1E-806C27A6BC63}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0290454C-C840-4B4F-9D1E-806C27A6BC63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADF5D889-06E2-4BD5-A14A-D16120AD0A6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADF5D889-06E2-4BD5-A14A-D16120AD0A6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADF5D889-06E2-4BD5-A14A-D16120AD0A6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADF5D889-06E2-4BD5-A14A-D16120AD0A6D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
