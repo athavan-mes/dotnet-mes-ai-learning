@@ -5,9 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MiniMES.Infrastructure.Repositories
+namespace MiniMES.Application.Abstractions
 {
-    public  interface IProductionRepository
+    public interface IProductionRepository
     {
         void SaveProduction(MachineType machineType, string machineId, int input, int output);
     }

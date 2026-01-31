@@ -1,9 +1,6 @@
 ﻿using MiniMES.Domain.Machines;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using MiniMES.Application.Abstractions;
+
 
 namespace MiniMES.Infrastructure.Repositories
 {
@@ -17,6 +14,7 @@ namespace MiniMES.Infrastructure.Repositories
             int output)
         {
             var record = $"{DateTime.UtcNow:o} | {machineType} | {machineId} | Input={input} | Output={output} ";
+            _store.Add(record);
         }
 
         // Help[er for debugging / testing
